@@ -1,0 +1,26 @@
+# /etc/conf.d/flowercoind: config file for /etc/init.d/flowercoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/flowercoin/flowercoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/flowercoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/flowercoind.pid"
+
+# Where to write flowercoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/flowercoind"
+
+# User and group to own flowercoind process
+#BITCOIND_USER="flowercoin"
+#BITCOIND_GROUP="flowercoin"
+
+# Path to flowercoind executable
+#BITCOIND_BIN="/usr/bin/flowercoind"
+
+# Nice value to run flowercoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

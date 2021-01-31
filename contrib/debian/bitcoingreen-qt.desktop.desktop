@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=FlowerCoin
+Comment=FlowerCoin P2P Cryptocurrency
+Exec=flowercoin-qt %u
+Terminal=false
+Type=Application
+Icon=flowercoin128
+MimeType=x-scheme-handler/flowercoin;
+Categories=Office;Finance;
+Name[en_US]=flowercoin-qt.desktop
